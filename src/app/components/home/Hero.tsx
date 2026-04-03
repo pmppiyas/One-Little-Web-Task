@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="absolute bottom-[15%] right-[15%] md:right-[10%] animate-float [animation-delay:1s]">
+          <div className="absolute bottom-[20%] right-[15%] md:right-[10%] animate-float [animation-delay:1s]">
             <div className="w-16 h-16 md:w-20 md:h-20 bg-[#34E0A1] rounded-2xl flex items-center justify-center shadow-2xl -rotate-6">
               <Image src={assets.owl} alt="Airbnb" width={52} height={52} />
             </div>
