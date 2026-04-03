@@ -17,6 +17,7 @@ import like from '@/assets/like.png';
 import track from '@/assets/track.png';
 import message from '@/assets/message.png';
 import bin from '@/assets/bin.png';
+import arrow from '@/assets/arrow.png';
 import { Service } from '@/interface/interface';
 
 export const assets = {
@@ -26,6 +27,7 @@ export const assets = {
   owl,
   v,
   blob,
+  arrow,
 };
 
 export const carouselLogo = [
@@ -74,5 +76,53 @@ export const services: Service[] = [
     description:
       'Deliver exceptional customer service with our dedicated inquiry management module. Provide lightning-fast responses to potential guests, resolve issues in real-time, and ensure a smooth communication flow from the first click to the final checkout.',
     icon: bin,
+  },
+];
+
+export const plans = [
+  {
+    name: 'Freebie',
+    price: 0,
+    highlighted: false,
+    features: [
+      { text: '20,000+ of PNG & SVG graphics', included: true },
+      { text: 'Access to 100 million stock images', included: true },
+      { text: 'Upload custom icons and fonts', included: false },
+      { text: 'Unlimited Sharing', included: false },
+      { text: 'Upload graphics & video in up to 4k', included: false },
+      { text: 'Unlimited Projects', included: false },
+      { text: 'Instant Access to our design system', included: false },
+      { text: 'Create teams to collaborate on designs', included: false },
+    ],
+  },
+  {
+    name: 'Professional',
+    price: 25,
+    highlighted: true,
+    features: [
+      { text: '20,000+ of PNG & SVG graphics', included: true },
+      { text: 'Access to 100 million stock images', included: true },
+      { text: 'Upload custom icons and fonts', included: true },
+      { text: 'Unlimited Sharing', included: true },
+      { text: 'Upload graphics & video in up to 4k', included: true },
+      { text: 'Unlimited Projects', included: true },
+      { text: 'Instant Access to our design system', included: false },
+      { text: 'Create teams to collaborate on designs', included: false },
+    ],
+  },
+  {
+    name: 'Enterprise',
+    price: 100,
+    highlighted: false,
+    features: [
+      { text: '20,000+ of PNG & SVG graphics', included: true },
+      { text: 'Access to 100 million stock images', included: true },
+      { text: 'Upload custom icons and fonts', included: true },
+      { text: 'Unlimited Sharing', included: true },
+      { text: 'Upload graphics & video in up to 4k', included: true },
+      { text: 'Unlimited Projects', included: true },
+      { text: 'Instant Access to our design system', included: true },
+      { text: 'Create teams to collaborate on designs', included: true },
+    ],
   },
 ];

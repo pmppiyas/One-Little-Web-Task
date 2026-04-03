@@ -5,10 +5,8 @@ import Link from 'next/link';
 
 const OurService = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-16">
-      <div className="text-center mb-12">
-        <Header black="Our" primary="Services" sub="What We Offer" />
-      </div>
+    <div className="max-w-7xl mx-auto px-4 py-16 space-y-12">
+      <Header black="Our" primary="Services" sub="What We Offer" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-10">
         {services.map((service, index) => (
