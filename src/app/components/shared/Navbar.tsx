@@ -59,7 +59,7 @@ const Navbar = () => {
 
         {/* Desktop Button */}
         <div className="hidden lg:block">
-          <Button className="bg-primary text-background px-5 py-2 rounded-sm font-medium hover:bg-primary/90 transition-all active:scale-95 flex gap-2 items-center">
+          <Button className="bg-primary text-background px-5 py-5 rounded-sm font-medium hover:bg-primary/90 transition-all active:scale-95 flex gap-2 items-center">
             Schedule A Meeting <ArrowRight size={18} />
           </Button>
         </div>
@@ -97,7 +97,7 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-          <Button className="mt-4 bg-primary text-background px-8 py-8 rounded-md text-lg flex gap-2 items-center">
+          <Button className="mt-4 bg-primary text-background px-8 py-6 rounded-md text-lg flex gap-2 items-center">
             Schedule A Meeting <ArrowRight size={20} />
           </Button>
         </nav>
