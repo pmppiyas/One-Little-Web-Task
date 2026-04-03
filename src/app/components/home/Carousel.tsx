@@ -8,7 +8,7 @@ const Carousel = () => {
         Trusted by leaders in 50+ Industries
       </h3>
       <div className="bg-[#F6F6F6]">
-        <div className="flex flex-wrap items-center justify-between gap-6 max-w-7xl mx-auto px-4 py-6 rounded-lg">
+        <div className="flex flex-wrap items-center justify-between gap-6 max-w-7xl mx-auto px-6 py-6 rounded-lg">
           {carouselLogo.map((img, i) => (
             <div
               key={i}
