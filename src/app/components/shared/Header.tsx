@@ -5,7 +5,7 @@ const Header = ({
 }: {
   black: string;
   primary: string;
-  sub: string;
+  sub?: string;
 }) => {
   return (
     <div className="text-center">
