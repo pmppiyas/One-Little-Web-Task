@@ -46,18 +46,16 @@ const ReviewCarousel = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-20 space-y-12 overflow-hidden">
-      {/* Header */}
-      <div className="text-center space-y-4">
-        <Header black="Check Our Clients" primary="Review" />
-        <p className="text-xs md:text-sm text-foregground/80 max-w-2xl mx-auto leading-relaxed">
-          See how property owners are transforming their business and maximizing
+    <div className="max-w-7xl mx-auto px-4 py-16 space-y-12 overflow-hidden">
+      <Header
+        black="Check Our Clients"
+        primary="Review"
+        sub="  See how property owners are transforming their business and maximizing
           their earnings with our automated management tools. Your success is
-          our priority.
-        </p>
-      </div>
+          our priority."
+      />
 
-      {/* Embla Carousel Container */}
+      {/* Carousel Container */}
       <div className="relative px-4">
         <div className="overflow-visible" ref={emblaRef}>
           <div className="flex -ml-4 md:-ml-8">
@@ -66,7 +64,7 @@ const ReviewCarousel = () => {
               return (
                 <div
                   key={review.id}
-                  className="flex-[0_0_100%] min-w-0 pl-4 md:pl-8 md:flex-[0_0_40%] lg:flex-[0_0_33.33%] py-10 transition-all duration-500"
+                  className="flex-[0_0_100%] min-w-0 pl-4 md:pl-8 md:flex-[0_0_40%] lg:flex-[0_0_33.33%] py-10 transition-all duration-500 hover:cursor-pointer select-none"
                 >
                   <div
                     className={`relative transition-all duration-500 rounded-sm p-8 flex items-center gap-6

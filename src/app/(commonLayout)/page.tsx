@@ -1,4 +1,5 @@
 import Carousel from '@/app/components/home/Carousel';
+import FAQ from '@/app/components/home/FAQ';
 import GettingStart from '@/app/components/home/GettingStart';
 import Hero from '@/app/components/home/Hero';
 import OurService from '@/app/components/home/OurService';
@@ -18,6 +19,7 @@ export default function Home() {
       <GettingStart />
       <WhyChooseUs />
       <ReviewCarousel />
+      <FAQ />
     </div>
   );
 }
