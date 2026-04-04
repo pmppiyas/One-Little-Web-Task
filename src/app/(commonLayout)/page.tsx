@@ -1,6 +1,7 @@
 import Carousel from '@/app/components/home/Carousel';
 import Hero from '@/app/components/home/Hero';
 import OurService from '@/app/components/home/OurService';
+import OurTool from '@/app/components/home/OurTool';
 import Pricing from '@/app/components/home/Pricing';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Carousel />
       <OurService />
       <Pricing />
+      <OurTool />
     </div>
   );
 }

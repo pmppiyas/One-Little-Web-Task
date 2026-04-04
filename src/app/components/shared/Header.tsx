@@ -9,7 +9,7 @@ const Header = ({
 }) => {
   return (
     <div className="text-center">
-      <h2 className="text-3xl font-bold text-foreground">
+      <h2 className="text-4xl font-bold text-foreground">
         {black} <span className="text-primary">{primary}</span>
       </h2>
       <p className="text-lg text-muted-foreground mt-2">{sub}</p>

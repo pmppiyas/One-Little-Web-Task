@@ -19,6 +19,12 @@ import message from '@/assets/message.png';
 import bin from '@/assets/bin.png';
 import arrow from '@/assets/arrow.png';
 import { Service } from '@/interface/interface';
+import priceLabs from '@/assets/pricelabs.png';
+import wheelHouse from '@/assets/wheel.png';
+import beyond from '@/assets/beyond.png';
+import hostfully from '@/assets/hostfully.png';
+import guesty from '@/assets/guesty.png';
+import lodgify from '@/assets/lodgify.png';
 
 export const assets = {
   logo,
@@ -125,4 +131,16 @@ export const plans = [
       { text: 'Create teams to collaborate on designs', included: true },
     ],
   },
+];
+
+export const tools = [
+  priceLabs,
+  wheelHouse,
+  beyond,
+  hostfully,
+  guesty,
+  lodgify,
+  hostfully,
+  guesty,
+  lodgify,
 ];
