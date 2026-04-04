@@ -25,6 +25,9 @@ import beyond from '@/assets/beyond.png';
 import hostfully from '@/assets/hostfully.png';
 import guesty from '@/assets/guesty.png';
 import lodgify from '@/assets/lodgify.png';
+import addUser from '@/assets/adduser.png';
+import users from '@/assets/users.png';
+import headphone from '@/assets/headphone.png';
 
 export const assets = {
   logo,
@@ -144,3 +147,9 @@ export const tools = [
   guesty,
   lodgify,
 ];
+
+export const stepIcon = {
+  addUser,
+  users,
+  headphone,
+};

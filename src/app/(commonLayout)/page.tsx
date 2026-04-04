@@ -1,4 +1,5 @@
 import Carousel from '@/app/components/home/Carousel';
+import GettingStart from '@/app/components/home/GettingStart';
 import Hero from '@/app/components/home/Hero';
 import OurService from '@/app/components/home/OurService';
 import OurTool from '@/app/components/home/OurTool';
@@ -12,6 +13,7 @@ export default function Home() {
       <OurService />
       <Pricing />
       <OurTool />
+      <GettingStart />
     </div>
   );
 }
