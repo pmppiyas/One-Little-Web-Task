@@ -28,6 +28,7 @@ import lodgify from '@/assets/lodgify.png';
 import addUser from '@/assets/adduser.png';
 import users from '@/assets/users.png';
 import headphone from '@/assets/headphone.png';
+import man from '@/assets/man.png';
 
 export const assets = {
   logo,
@@ -37,6 +38,7 @@ export const assets = {
   v,
   blob,
   arrow,
+  man,
 };
 
 export const carouselLogo = [
@@ -153,3 +155,10 @@ export const stepIcon = {
   users,
   headphone,
 };
+
+export const reasons = [
+  'Brilliant Client Service',
+  'Flexibility & Adaptibility',
+  'We make it Personal',
+  'We have expert in our team',
+];
