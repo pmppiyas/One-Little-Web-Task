@@ -1,4 +1,5 @@
 import Carousel from '@/app/components/home/Carousel';
+import ContactSection from '@/app/components/home/ContactSection';
 import FAQ from '@/app/components/home/FAQ';
 import GettingStart from '@/app/components/home/GettingStart';
 import Hero from '@/app/components/home/Hero';
@@ -19,7 +20,10 @@ export default function Home() {
       <GettingStart />
       <WhyChooseUs />
       <ReviewCarousel />
-      <FAQ />
+      <div className="">
+        <FAQ />
+        <ContactSection />
+      </div>
     </div>
   );
 }

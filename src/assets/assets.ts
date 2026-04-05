@@ -245,3 +245,36 @@ export const reviews = [
     highlight: false,
   },
 ];
+
+export const faqs = [
+  {
+    question: 'Is there a free trial available?',
+    answer:
+      "Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+  },
+  {
+    question: 'Can I change my plan later?',
+    answer:
+      'Absolutely! You can upgrade or downgrade your plan at any time from your dashboard settings. Changes will be reflected in your next billing cycle.',
+  },
+  {
+    question: 'What is your cancellation policy?',
+    answer:
+      'We offer a flexible cancellation policy. You can cancel your subscription at any time without any hidden fees or penalties.',
+  },
+  {
+    question: 'Can other info be added to an invoice?',
+    answer:
+      'Yes, you can add your company name, VAT number, and specific billing address to your invoices from the billing profile section.',
+  },
+  {
+    question: 'How does billing work?',
+    answer:
+      "We bill monthly or annually depending on your preference. All payments are processed securely, and you'll receive an automated invoice every month.",
+  },
+  {
+    question: 'How do I change my account email?',
+    answer:
+      "You can update your email address in the 'Account Settings' section. For security reasons, you'll need to verify the new email address.",
+  },
+];
