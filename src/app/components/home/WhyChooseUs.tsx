@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const WhyChooseUs = () => {
   return (
-    <div className="max-w-7xl mx-auto py-12 ">
+    <div className="max-w-7xl mx-auto py-12 px-4">
       <div className="bg-[#fce8f0] rounded-3xl p-10 flex flex-col lg:flex-row items-center gap-10 relative overflow-hidden">
         {/* Left: Text Content */}
         <div className="flex-1 space-y-5 z-10">
@@ -93,7 +93,7 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Right: OTA Logos */}
-          <div className="absolute top-0 right-0 z-10 grid grid-cols-2 gap-3 bg-background backdrop-blur-sm p-4 rounded-3xl shadow-xl border border-gray-100">
+          <div className="absolute top-20 ld:top-0 sm:-right-8 md:right-0 z-10 grid grid-cols-2 gap-3 bg-background backdrop-blur-sm p-4 rounded-3xl shadow-xl border border-gray-100">
             {[
               {
                 label: 'Airbnb',
