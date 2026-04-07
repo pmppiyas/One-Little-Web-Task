@@ -5,32 +5,6 @@ import { Switch } from '@/components/ui/switch';
 import { assets } from '@/assets/assets';
 import Image from 'next/image';
 
-const CurvedArrow = () => (
-  <svg
-    width="60"
-    height="35"
-    viewBox="0 0 60 35"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    className="rotate-[-10deg]"
-  >
-    <path
-      d="M55 30C45 30 35 25 30 15C25 5 35 2 40 8C45 15 35 20 20 22L5 25"
-      stroke="#F43F5E"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <path
-      d="M10 20L5 25L10 30"
-      stroke="#F43F5E"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
-
 const PaymentToggle = () => {
   const [yearly, setYearly] = useState(true);
 
@@ -57,10 +31,17 @@ const PaymentToggle = () => {
       </span>
 
       {/* Arrow + Badge */}
-      <div className="absolute -right-18 -bottom-3 flex items-center gap-2 ">
-        <Image src={assets.arrow} alt="Arrow" height={50} width={50} />
+      <div className="absolute -right-4 -top-8 -rotate-40 md:-rotate-4 md:top-auto md:-right-14 md:-bottom-3 flex items-center gap-1 md:gap-2">
+        <div className="relative w-8 h-8 md:w-12.5 md:h-12.5">
+          <Image
+            src={assets.arrow}
+            alt="Arrow"
+            fill
+            className="object-contain"
+          />
+        </div>
 
-        <span className="text-primary font-medium text-sm whitespace-nowrap pt-4 ">
+        <span className="text-primary font-bold text-xs md:text-lg whitespace-nowrap pt-2 md:pt-4">
           Save 25%
         </span>
       </div>

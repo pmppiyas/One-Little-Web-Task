@@ -93,7 +93,7 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Right: OTA Logos */}
-          <div className="absolute top-20 ld:top-0 sm:-right-8 md:right-0 z-10 grid grid-cols-2 gap-3 bg-background backdrop-blur-sm p-4 rounded-3xl shadow-xl border border-gray-100">
+          <div className="absolute top-20 ld:top-0 -right-14 md:right-0 z-10 grid grid-cols-2 gap-3 bg-background backdrop-blur-sm p-4 rounded-3xl shadow-xl border border-gray-100">
             {[
               {
                 label: 'Airbnb',
